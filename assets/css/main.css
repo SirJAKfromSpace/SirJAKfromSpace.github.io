@@ -72,9 +72,17 @@ input, select, textarea {
 	appearance: none;
 }
 
+hr {
+	margin-bottom: 2em;
+}
+
 .spacered{
 	/* color: rgb(231, 16, 124); */
 	color: #006eff;
+}
+.mutedtext{
+	color: lightgray;
+	font-size: smaller;
 }
 
 .textalign-right{
@@ -86,6 +94,7 @@ input, select, textarea {
 
 .flexbox{
 	display: flex;
+	flex-wrap: wrap;
 }
 
 /* Row */
@@ -1545,6 +1554,7 @@ input, select, textarea {
 
 	section, article {
 		margin-bottom: 3em;
+		/* margin-top: 1em; */
 	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
@@ -1808,7 +1818,7 @@ input, select, textarea {
 			line-height: 0.9em;
 			font-size: 2.5em;
 			margin: 0 0.25em 0 0.25em;
-			opacity: 0.3;
+			opacity: 0.4;
 			outline: 0;
 			-moz-transition: opacity .25s ease-in-out;
 			-webkit-transition: opacity .25s ease-in-out;
