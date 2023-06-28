@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300`");
 @import url("fontawesome-all.min.css");
 
 /*
@@ -1420,17 +1420,17 @@ h4{
 
 	h1 {
 		font-size: 2.4em;
-		letter-spacing: -0.015em;
+		/* letter-spacing: -0.015em; */
 	}
 
 	h2 {
 		font-size: 1.8em;
-		letter-spacing: -0.015em;
+		/* letter-spacing: -0.015em; */
 	}
 
 	h3, h4, h5, h6 {
 		font-size: 1.25em;
-		letter-spacing: -0.015em;
+		/* letter-spacing: -0.015em; */
 	}
 
 	@media screen and (max-width: 736px) {
@@ -2146,7 +2146,7 @@ h4{
 					}
 
 					#main > .panel.intro header p {
-						letter-spacing: -0.015em;
+						/* letter-spacing: -0.015em; */
 						font-size: 1.25em;
 						margin: 0.25em 0 0 0;
 					}
